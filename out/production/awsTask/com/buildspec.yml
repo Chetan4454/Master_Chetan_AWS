@@ -9,6 +9,10 @@ phases:
     commands:
       - echo Build completed successfully
 
+artifacts:
+  files:
+    - target/aws.jar
+  discard-paths: yes
 
 
 
